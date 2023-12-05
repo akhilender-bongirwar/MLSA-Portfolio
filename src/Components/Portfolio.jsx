@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Portfolio.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Collab Draw",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a collaborative drawing application with real-time features. Utilized Next.js, React-Redux, TypeScript, Socket.io, Express.js, Node.js and Tailwind CSS for this project.",
+    url: "https://collab-draw.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "VS NOTE",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a VS Code extension for managing code snippets and notes.Tech stack used are TypeScript, Svelte, PostgreSQL, TypeORM, JWT, and Passport GitHub package.",
+    url: "https://github.com/akhilender-bongirwar/vsnote",
   },
   {
-    title: "My Resume Site",
+    title: "Code Executor Bot",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a GitHub app analyzing code in issues and providing output. Built using Probot app and the Piston API.",
+    url: "https://github.com/akhilender-bongirwar/code-validator",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Promptify",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed dynamic web app for creating and sharing prompts. Tech stacks used are Next.js, Tailwind CSS, MongoDB and Google Oauth 2.0",
+    url: "https://promptify-89fwtx63e-akhilender-bongirwar.vercel.app/",
   },
 ];
 
